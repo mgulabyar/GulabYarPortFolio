@@ -120,7 +120,7 @@ export default function Projects() {
                         setActiveProject(project);
                         setCarouselIndex(0);
                       }}
-                      className="px-4 py-2 rounded-md border border-white/20 text-white font-bold text-[12px] uppercase tracking-widest hover:bg-white hover:text-black transition-all cursor-pointer"
+                      className="px-4 py-2 rounded-md bg-brand-orange text-white border border-white/20 font-bold text-[12px] uppercase tracking-widest hover:bg-white hover:text-black transition-all cursor-pointer"
                     >
                       Open Tab
                     </button>
