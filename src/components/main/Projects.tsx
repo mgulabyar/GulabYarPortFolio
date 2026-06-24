@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
-import { ExternalLink, X, ChevronLeft, ChevronRight } from "lucide-react";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { projects, type Project } from "../data/projectsData";
 import Footer from "../Footer/Footer";
 
@@ -115,13 +115,15 @@ export default function Projects() {
                     >
                       Preview
                     </button>
-                    <a
-                      href={`/project/${project._id}`}
-                      target="_blank"
-                      className="px-4 py-2 rounded-md bg-brand-orange text-white font-bold text-[12px] uppercase tracking-widest shadow-glow-orange hover:scale-105 transition-all cursor-pointer flex items-center gap-2"
+                    <button
+                      onClick={() => {
+                        setActiveProject(project);
+                        setCarouselIndex(0);
+                      }}
+                      className="px-4 py-2 rounded-md border border-white/20 text-white font-bold text-[12px] uppercase tracking-widest hover:bg-white hover:text-black transition-all cursor-pointer"
                     >
-                      Open Tab <ExternalLink size={14} />
-                    </a>
+                      Open Tab
+                    </button>
                   </div>
                 </div>
                 <div className="p-8 bg-slate-950/40 text-center border-t border-white/5">
