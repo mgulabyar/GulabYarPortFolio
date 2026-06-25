@@ -23,7 +23,7 @@ export default function ProjectDetail() {
           <Link to="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-brand-orange transition-colors mb-12 uppercase text-[10px] font-black tracking-widest group">
             <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" /> Back to Showcase
           </Link>
-
+{/* ArrowLeft */}
           <div className="text-center mb-16">
             <h1 className="text-3xl md:text-5xl font-black uppercase mb-4">{project.title}</h1>
             <p className="text-brand-orange text-lg md:text-xl font-bold italic opacity-80">{project.tagline}</p>
