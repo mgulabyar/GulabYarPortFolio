@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 import profileImg from "../../assets/profile.png";
 import Footer from "../Footer/Footer";
-// asdfand 
 export default function Hero() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [profile, setProfile] = useState<any>(null);
