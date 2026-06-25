@@ -117,6 +117,7 @@ import mailMind2 from "../../assets/mailMind1 (2).png";
 import mailMind3 from "../../assets/mailMind1 (3).png";
 import mailMind4 from "../../assets/mailMind1 (4).png";
 import outreachForge1 from "../../assets/outreachForge1 (1).png";
+import outreachForge2 from "../../assets/outreachForge1 (2).png";
 export interface Project {
   _id: string;
   title: string;
@@ -993,7 +994,7 @@ export const projects: Project[] = [
   tagline: "Hyper-Personalized Sales Outreach & Email Automation Engine.",
   category: "Google Add-ons",
   subType: "Google Sheet Add-ons",
-  images: [outreachForge1, ],
+  images: [outreachForge1, outreachForge2],
   description:
     "A powerful Google Sheets-based sales automation platform designed to generate highly personalized B2B outreach campaigns at scale. Built with Google Apps Script, React, Material UI, Gmail API, and OpenAI GPT-4o, the solution transforms prospect data into customized sales conversations by analyzing professional backgrounds, achievements, and role-specific insights before generating outreach content. The platform features an intelligent research engine that identifies personalized engagement opportunities, automatically crafts compelling subject lines and concise email copy, and routes messages through a structured review workflow before delivery. Integrated Gmail synchronization enables seamless campaign execution while maintaining human oversight and quality control. Designed for sales teams, agencies, recruiters, and business development professionals, the platform dramatically increases outreach efficiency, personalization quality, and response rates while eliminating manual prospect research workloads.",
   technologies: [
