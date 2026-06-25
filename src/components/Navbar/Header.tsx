@@ -49,7 +49,6 @@ export default function Header() {
       transition: { duration: 1.8, ease: [0.16, 1, 0.3, 1] as const },
     },
   };
-// internal styling
   const sidebarVariants: Variants = {
     closed: { opacity: 0, x: "100%" },
     open: {
