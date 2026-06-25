@@ -25,7 +25,7 @@ export default function Contact() {
       transition: { staggerChildren: 0.25, delayChildren: 0.3 }
     }
   };
-
+//  hidden visible
   const slowSlideLeft = {
     hidden: { opacity: 0, x: -70 },
     visible: {
