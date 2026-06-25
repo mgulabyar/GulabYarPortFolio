@@ -952,6 +952,33 @@ export const projects: Project[] = [
   ],
   liveUrl: "#",
 },
+
+{
+  _id: "33",
+  title: "MailMind AI",
+  tagline: "AI-Powered Email Sentiment Analysis & Executive Response Assistant.",
+  category: "Google Add-ons",
+  subType: "Gmail Add-ons",
+  images: [],
+  description:
+    "An intelligent Gmail add-on designed to help professionals, executives, and support teams analyze email sentiment, uncover hidden intent, and generate strategic responses directly within their inbox. Built using Google Apps Script, Gmail APIs, React, Material UI, and OpenAI GPT-4o, the platform provides real-time emotional intelligence by evaluating message tone, urgency levels, and underlying communication signals. The system automatically identifies critical conversations, highlights potential escalation risks, extracts actionable tasks, and generates executive-grade draft responses tailored to the context of each email. Advanced sentiment and subtext analysis capabilities enable users to respond with greater accuracy, empathy, and professionalism while reducing communication delays. Integrated one-click drafting functionality allows AI-generated responses to be inserted directly into Gmail drafts, creating a streamlined workflow for high-volume communication environments.",
+  technologies: [
+    "Google Apps Script",
+    "Gmail API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "Sentiment Analysis",
+    "Natural Language Processing",
+    "Email Automation",
+    "Task Extraction",
+    "Workflow Automation",
+    "Google Workspace",
+    "AI Response Generation",
+  ],
+  liveUrl: "#",
+},
+
 ];
 
 
