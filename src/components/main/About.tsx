@@ -62,7 +62,7 @@ export default function About() {
             seamlessly with custom Office/Google macros, automated database
             pipelines, and smart AI interfaces.
           </motion.p>
-
+{/* motion.p */}
           <motion.div
             variants={slowSlideLeft}
             className="flex flex-col gap-3 mt-2"
