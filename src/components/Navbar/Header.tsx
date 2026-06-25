@@ -54,6 +54,7 @@ export default function Header() {
     open: {
       opacity: 1,
       x: 0,
+      // x 
       transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as const },
     },
   };
