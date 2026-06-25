@@ -92,6 +92,7 @@ export default function About() {
               to="/contact"
               className="relative overflow-hidden px-5 py-2.5 rounded-lg border border-brand-orange text-white font-bold text-sm tracking-wide transition-all duration-500 flex items-center gap-2 group cursor-pointer max-w-max"
             >
+              {/* Pitimize you workflow */}
               <span className="absolute inset-0 w-full h-full bg-linear-to-b from-brand-orange/20 to-brand-amber/20 -z-10 transition-transform duration-500 -translate-y-full group-hover:translate-y-0 ease-out"></span>
               <span className="z-10">Optimize Your Workflow</span>
               <ArrowUpRight className="h-4 w-4 z-10 group-hover:translate-x-0.5 group-hover:translate-y-[-0.5px] transition-transform duration-300" />
