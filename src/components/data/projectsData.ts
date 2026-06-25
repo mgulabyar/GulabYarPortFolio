@@ -110,6 +110,7 @@ import eduFlow4 from "../../assets/eduFlow1 (4).png";
 import workspaceGov1 from "../../assets/workspaceGov1 (1).png";
 import workspaceGov2 from "../../assets/workspaceGov1 (2).png";
 import workspaceGov3 from "../../assets/workspaceGov1 (3).png";
+import workspaceGov4 from "../../assets/workspaceGov1 (4).png";
 export interface Project {
   _id: string;
   title: string;
@@ -931,7 +932,7 @@ export const projects: Project[] = [
   tagline: "Enterprise Google Workspace Automation & Compliance Command Center.",
   category: "Google Add-ons",
   subType: "Google Sheet Add-ons",
-  images: [workspaceGov1, workspaceGov2, workspaceGov3, ],
+  images: [workspaceGov1, workspaceGov2, workspaceGov3, workspaceGov4],
   description:
     "A centralized Google Workspace administration platform designed to automate infrastructure management, user lifecycle operations, security compliance, and governance processes across enterprise environments. Built with Google Apps Script, React, and Material UI, the solution provides administrators with a powerful command center for managing organizational resources from a single interface. The platform automates shared drive provisioning, employee directory synchronization, access management workflows, policy enforcement, and large-scale data migration operations. An integrated security intelligence engine continuously monitors organizational assets, identifies unmanaged devices, highlights compliance risks, and provides actionable remediation insights. The system also features a real-time governance activity stream and executive analytics dashboard, enabling IT leadership to track operational performance, security posture, and administrative efficiency through a unified workspace management experience. Designed for enterprise-scale deployments, the platform significantly reduces administrative overhead while improving security, compliance, and operational consistency.",
   technologies: [
