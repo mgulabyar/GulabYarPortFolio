@@ -11,5 +11,3 @@ export default function Main() {
     </div>
   );
 }
-
-//  hero
