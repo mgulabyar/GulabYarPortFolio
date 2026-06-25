@@ -46,7 +46,63 @@ import scriptPilot1 from "../../assets/scriptPilot1 (1).png";
 import scriptPilot2 from "../../assets/scriptPilot1 (2).png";
 import scriptPilot3 from "../../assets/scriptPilot1 (3).png";
 import scriptPilot4 from "../../assets/scriptPilot1 (4).png";
-
+import ghostWriterDNA1 from "../../assets/ghostWriterDNA1 (1).png";
+import ghostWriterDNA2 from "../../assets/ghostWriterDNA1 (2).png";
+import ghostWriterDNA3 from "../../assets/ghostWriterDNA1 (3).png";
+import ghostWriterDNA4 from "../../assets/ghostWriterDNA1 (4).png";
+import formulaArchitect1 from "../../assets/formulaArchitect1 (1).png";
+import formulaArchitect2 from "../../assets/formulaArchitect1 (2).png";
+import formulaArchitect3 from "../../assets/formulaArchitect1 (3).png";
+import formulaArchitect4 from "../../assets/formulaArchitect1 (4).png";
+import architectIQ1 from "../../assets/architectIQ1 (1).png";
+import architectIQ2 from "../../assets/architectIQ1 (2).png";
+import architectIQ3 from "../../assets/architectIQ1 (3).png";
+import fraudHunter1 from "../../assets/fraudHunter1 (1).png";
+import fraudHunter2 from "../../assets/fraudHunter1 (2).png";
+import fraudHunter3 from "../../assets/fraudHunter1 (3).png";
+import fraudHunter4 from "../../assets/fraudHunter1 (4).png";
+import insightFlow1 from "../../assets/insightFlow1 (1).png";
+import insightFlow2 from "../../assets/insightFlow1 (2).png";
+import insightFlow3 from "../../assets/insightFlow1 (3).png";
+import insightFlow4 from "../../assets/insightFlow1 (4).png";
+import contractShield1 from "../../assets/contractShield1 (1).png";
+import contractShield2 from "../../assets/contractShield1 (2).png";
+import contractShield3 from "../../assets/contractShield1 (3).png";
+import contractShield4 from "../../assets/contractShield1 (4).png";
+import mediVision1 from "../../assets/mediVision1 (1).png";
+import mediVision2 from "../../assets/mediVision1 (2).png";
+import mediVision3 from "../../assets/mediVision1 (3).png";
+import mediVision4 from "../../assets/mediVision1 (4).png";
+import knowledgeGraph1 from "../../assets/knowledgeGraph1 (1).png";
+import knowledgeGraph2 from "../../assets/knowledgeGraph1 (2).png";
+import insightDeck1 from "../../assets/insightDeck1 (1).png";
+import insightDeck2 from "../../assets/insightDeck1 (2).png";
+import insightDeck3 from "../../assets/insightDeck1 (3).png";
+import insightDeck4 from "../../assets/insightDeck1 (4).png";
+import pitchStrategy1 from "../../assets/pitchStrategy1 (1).png";
+import pitchStrategy2 from "../../assets/pitchStrategy1 (2).png";
+import pitchStrategy3 from "../../assets/pitchStrategy1 (3).png";
+import pitchStrategy4 from "../../assets/pitchStrategy1 (4).png";
+import supplyChain1 from "../../assets/supplyChain1 (1).png";
+import supplyChain2 from "../../assets/supplyChain1 (2).png";
+import secureCode1 from "../../assets/secureCode1 (1).png";
+import secureCode2 from "../../assets/secureCode1 (2).png";
+import secureCode3 from "../../assets/secureCode1 (3).png";
+import secureCode4 from "../../assets/secureCode1 (4).png";
+import secureCode5 from "../../assets/secureCode1 (5).png";
+import cryptoTerminal1 from "../../assets/cryptoTerminal1 (1).png";
+import cryptoTerminal2 from "../../assets/cryptoTerminal1 (2).png";
+import cryptoTerminal3 from "../../assets/cryptoTerminal1 (3).png";
+import auditGuard1 from "../../assets/auditGuard1 (1).png";
+import auditGuard2 from "../../assets/auditGuard1 (2).png";
+import auditGuard3 from "../../assets/auditGuard1 (3).png";
+import auditGuard4 from "../../assets/auditGuard1 (4).png";
+import commerceCopy1 from "../../assets/commerceCopy1 (1).png";
+import commerceCopy2 from "../../assets/commerceCopy1 (2).png";
+import commerceCopy3 from "../../assets/commerceCopy1 (3).png";
+import commerceCopy4 from "../../assets/commerceCopy1 (4).png";
+import commerceCopy5 from "../../assets/commerceCopy1 (5).png";
+import commerceCopy6 from "../../assets/commerceCopy1 (6).png";
 export interface Project {
   _id: string;
   title: string;
@@ -405,6 +461,7 @@ export const projects: Project[] = [
   liveUrl: "#",
 },
 
+
 {
   _id: "15",
   title: "ScriptPilot AI",
@@ -431,6 +488,409 @@ export const projects: Project[] = [
   liveUrl: "#",
 },
 
+
+{
+  _id: "16",
+  title: "GhostWriter DNA",
+  tagline: "AI-Powered Style Replication & Intelligent Content Generation.",
+  category: "Office Add-ins",
+  subType: "Word Add-ins",
+  images: [ghostWriterDNA1, ghostWriterDNA2, ghostWriterDNA3, ghostWriterDNA4],
+  description:
+    "An advanced Microsoft Word add-in designed to deliver highly personalized AI-assisted writing by adapting to each user's unique communication style. Built with React, Office.js, and GPT-4 Turbo, the platform features a proprietary Style DNA Engine that analyzes document context, vocabulary patterns, sentence structures, and writing tone to generate content that seamlessly matches the author's existing voice. The solution includes intelligent content expansion, contextual rewriting, and a multi-tone transformation system that allows users to instantly switch between executive, creative, academic, and professional writing styles. A built-in Tone Match Scoring engine evaluates stylistic alignment between generated and existing content, ensuring consistency across reports, proposals, articles, and business documents while dramatically accelerating content creation workflows.",
+  technologies: [
+    "React.js",
+    "Microsoft Office.js",
+    "Word Add-ins",
+    "OpenAI GPT-4 Turbo",
+    "Natural Language Processing",
+    "Style Analysis",
+    "Content Generation",
+    "Tone Transformation",
+    "Document Intelligence",
+    "Prompt Engineering",
+    "AI Writing Assistant",
+    "Workflow Automation",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "17",
+  title: "Excel Formula Architect AI",
+  tagline: "Natural Language Formula Generation & Spreadsheet Intelligence.",
+  category: "Office Add-ins",
+  subType: "Excel Add-ins",
+  images: [formulaArchitect1, formulaArchitect2, formulaArchitect3, formulaArchitect4],
+  description:
+    "A powerful Microsoft Excel add-in that enables users to generate advanced spreadsheet formulas and business logic using simple natural language instructions. Built with React, Office.js, and GPT-4, the platform features a Context-Aware Header Sync Engine that analyzes worksheet structures, maps column names to cell references, and understands spreadsheet relationships in real time. The system automatically generates accurate formulas for complex calculations, lookups, conditional aggregations, financial models, and analytical workflows while eliminating common syntax and reference errors. An integrated Formula Explainer provides step-by-step logic breakdowns, and a one-click insertion engine instantly applies generated formulas to the worksheet, helping analysts, finance teams, and business professionals automate spreadsheet development with exceptional speed and accuracy.",
+  technologies: [
+    "React.js",
+    "Microsoft Office.js",
+    "Excel Add-ins",
+    "OpenAI GPT-4",
+    "Natural Language Processing",
+    "Formula Generation",
+    "Spreadsheet Intelligence",
+    "Data Analysis",
+    "Business Automation",
+    "Context-Aware AI",
+    "Formula Explanation Engine",
+    "Workflow Automation",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "18",
+  title: "ArchitectIQ AI",
+  tagline: "AI-Powered System Design, Architecture Mapping & Technical Blueprint Generator.",
+  category: "Web Development",
+  subType: "AI Architecture Platform",
+  images: [architectIQ1, architectIQ2, architectIQ3],
+  description:
+    "A sophisticated web-based software architecture platform that transforms natural language project requirements into professional system blueprints, technical roadmaps, and interactive architecture diagrams. Built with Next.js 14 and TypeScript, the platform leverages GPT-4o to analyze business and technical requirements, identify optimal design patterns, and generate detailed system architectures automatically. The solution converts complex specifications into dynamic Mermaid.js visualizations, enabling developers, architects, and CTOs to explore service relationships, data flows, infrastructure dependencies, and deployment strategies in real time. A built-in Architecture Intelligence Engine calculates complexity, scalability, and maintainability scores while providing recommendations for industry-standard patterns such as API Gateways, Circuit Breakers, Event-Driven Architectures, and Microservices. The platform significantly accelerates planning and design phases, allowing teams to make informed architectural decisions before development begins.",
+  technologies: [
+    "Next.js 14",
+    "TypeScript",
+    "React.js",
+    "OpenAI GPT-4o",
+    "Mermaid.js",
+    "System Architecture Design",
+    "Technical Blueprint Generation",
+    "Software Engineering",
+    "Microservices Architecture",
+    "Data Flow Modeling",
+    "AI-Powered Analysis",
+    "Web Development",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "19",
+  title: "FraudHunter AI",
+  tagline: "Machine Learning Fraud Detection & Financial Forensics Platform.",
+  category: "Web Development",
+  subType: "Cybersecurity Analytics Platform",
+  images: [fraudHunter1, fraudHunter2, fraudHunter3, fraudHunter4],
+  description:
+    "A sophisticated cybersecurity and financial forensics platform designed to identify, analyze, and explain suspicious transaction behavior in real time. Built with React, FastAPI, and advanced machine learning technologies, the platform leverages anomaly detection models to uncover hidden fraud patterns that traditional rule-based systems often miss. The solution continuously evaluates transaction streams, assigns dynamic risk scores, and visualizes threats through interactive dashboards, security logs, and real-time monitoring tools. An AI-powered forensic intelligence engine analyzes flagged activities, generates detailed fraud hypotheses, explains risk indicators, and provides actionable mitigation strategies for investigators and compliance teams. Designed for banks, fintech organizations, and enterprise security operations, the platform delivers enhanced visibility, faster investigations, and data-driven fraud prevention capabilities.",
+  technologies: [
+    "React.js",
+    "Python",
+    "FastAPI",
+    "Scikit-Learn",
+    "Isolation Forest",
+    "OpenAI GPT-4o",
+    "Machine Learning",
+    "Fraud Detection",
+    "Financial Forensics",
+    "Cybersecurity",
+    "Risk Analytics",
+    "Data Visualization",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "20",
+  title: "InsightFlow AI",
+  tagline: "Natural Language Analytics & AI-Powered Business Intelligence.",
+  category: "Web Development",
+  subType: "Business Intelligence Platform",
+  images: [insightFlow1, insightFlow2, insightFlow3, insightFlow4],
+  description:
+    "A next-generation business intelligence platform that enables organizations to interact with their data using natural language instead of traditional database queries. Built with Next.js 14, MongoDB, and GPT-4o, the platform transforms user questions into optimized aggregation pipelines, allowing business owners, executives, and analysts to generate complex reports without technical expertise. The system automatically processes analytical requests, performs real-time calculations, and presents insights through an adaptive visualization engine that selects the most effective chart type based on the underlying data structure. A built-in query transparency console displays the generated aggregation logic, helping users understand how insights are produced while maintaining complete visibility into the analytical process. The platform delivers instant, data-driven decision support by converting raw business data into actionable intelligence within seconds.",
+  technologies: [
+    "Next.js 14",
+    "TypeScript",
+    "React.js",
+    "MongoDB",
+    "OpenAI GPT-4o",
+    "Business Intelligence",
+    "Data Analytics",
+    "Natural Language Processing",
+    "MongoDB Aggregation Pipelines",
+    "Data Visualization",
+    "Dashboard Development",
+    "Web Development",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "21",
+  title: "ContractShield AI",
+  tagline: "Intelligent Contract Auditing & Automated Legal Redlining Platform.",
+  category: "Web Development",
+  subType: "LegalTech Platform",
+  images: [contractShield1, contractShield2, contractShield3, contractShield4],
+  description:
+    "A sophisticated legal technology platform designed to automate contract analysis, compliance auditing, and risk mitigation for businesses, legal teams, and consultants. Built with React, FastAPI, MongoDB, and GPT-4o, the solution performs deep structural reviews of commercial agreements to identify hidden liabilities, unfair obligations, and missing legal protections. The platform generates a comprehensive compliance score, categorizes contractual risks by severity, and delivers detailed explanations for every flagged clause. Its advanced Redline Engine automatically drafts professional replacement language and remediation recommendations, enabling users to strengthen agreements without extensive manual review. Historical audit tracking, risk reporting, and compliance monitoring capabilities provide organizations with a centralized legal intelligence system that accelerates contract review while improving transparency and decision-making.",
+  technologies: [
+    "React.js",
+    "FastAPI",
+    "MongoDB",
+    "OpenAI GPT-4o",
+    "LegalTech",
+    "Contract Analysis",
+    "Risk Assessment",
+    "Compliance Auditing",
+    "Natural Language Processing",
+    "Document Intelligence",
+    "AI Redlining Engine",
+    "Web Development",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "22",
+  title: "MediVision AI",
+  tagline: "AI-Powered Clinical Diagnostics & Medical Risk Intelligence Platform.",
+  category: "Web Development",
+  subType: "HealthTech Platform",
+  images: [mediVision1, mediVision2, mediVision3, mediVision4],
+  description:
+    "An enterprise-grade healthcare intelligence platform designed to transform complex laboratory reports and patient health records into clear, actionable clinical insights. Built with React, FastAPI, MongoDB, and GPT-4o Vision, the platform analyzes medical reports, diagnostic findings, and biometric indicators to identify abnormal health markers and prioritize patient risk levels in real time. The system features an interactive Clinical Urgency Index that visualizes severity scores, highlights critical findings, and generates easy-to-understand health summaries for both medical professionals and patients. Advanced analytics dashboards, historical health tracking, and encrypted medical record management provide a secure environment for clinical decision support. Designed for hospitals, diagnostic laboratories, healthcare providers, and telemedicine organizations, the platform accelerates triage workflows while improving patient understanding and engagement through intelligent health insights.",
+  technologies: [
+    "React.js",
+    "FastAPI",
+    "MongoDB",
+    "OpenAI GPT-4o Vision",
+    "HealthTech",
+    "Medical Diagnostics",
+    "Clinical Analytics",
+    "Computer Vision",
+    "Risk Assessment",
+    "Patient Intelligence",
+    "Data Visualization",
+    "Web Development",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "23",
+  title: "KnowledgeGraph Nexus",
+  tagline: "AI-Powered Semantic Knowledge Mapping & Relationship Intelligence Platform.",
+  category: "Web Development",
+  subType: "Knowledge Management Platform",
+  images: [knowledgeGraph1, knowledgeGraph2],
+  description:
+    "A next-generation knowledge intelligence platform designed to transform unstructured organizational data into an interactive network of connected entities, relationships, and business insights. Built with Next.js 14, MongoDB, and GPT-4o, the platform automatically analyzes documents, reports, technical specifications, and internal knowledge repositories to identify meaningful relationships between people, projects, departments, technologies, and business assets. The system generates dynamic graph-based visualizations using advanced force-directed rendering, allowing users to explore complex information ecosystems through an immersive and highly interactive interface. Each node provides rich metadata, contextual insights, and relationship tracing capabilities, while a secure audit framework maintains a complete history of extracted intelligence. Designed for enterprises, research organizations, and technology teams, the platform dramatically accelerates knowledge discovery, organizational transparency, and strategic decision-making.",
+  technologies: [
+    "Next.js 14",
+    "TypeScript",
+    "React.js",
+    "MongoDB",
+    "OpenAI GPT-4o",
+    "React Force Graph",
+    "Knowledge Graphs",
+    "Semantic Search",
+    "Entity Relationship Mapping",
+    "Data Visualization",
+    "Knowledge Management",
+    "Web Development",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "24",
+  title: "InsightDeck AI",
+  tagline: "Automated Excel-to-PowerPoint Business Intelligence Reporting.",
+  category: "Office Add-ins",
+  subType: "PowerPoint Add-ins",
+  images: [insightDeck1, insightDeck2, insightDeck3, insightDeck4],
+  description:
+    "A sophisticated Microsoft PowerPoint add-in designed to transform spreadsheet analytics into executive-ready presentations through AI-powered business intelligence automation. Built with React, Office.js, and GPT-4, the platform analyzes structured data, identifies critical KPIs, detects performance trends, and generates strategic business narratives automatically. The solution features an interactive dual-workspace dashboard where users can review analytical insights, trend evaluations, and performance metrics before synchronizing content directly into presentation slides. Advanced reporting intelligence converts raw business data into professionally structured executive summaries, performance reviews, operational reports, and stakeholder presentations, eliminating manual copy-paste workflows while ensuring consistency, accuracy, and strategic clarity across every slide deck.",
+  technologies: [
+    "React.js",
+    "Microsoft Office.js",
+    "PowerPoint Add-ins",
+    "OpenAI GPT-4",
+    "Business Intelligence",
+    "Data Analytics",
+    "KPI Analysis",
+    "Trend Detection",
+    "Presentation Automation",
+    "Data Visualization",
+    "Executive Reporting",
+    "Workflow Automation",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "25",
+  title: "PitchDeck Strategy AI",
+  tagline: "Investor-Ready Startup Pitch Generation & VC Strategy Assistant.",
+  category: "Office Add-ins",
+  subType: "PowerPoint Add-ins",
+  images: [pitchStrategy1, pitchStrategy2, pitchStrategy3, pitchStrategy4],
+  description:
+    "A premium Microsoft PowerPoint add-in designed to help entrepreneurs, startup founders, consultants, and innovation teams transform business ideas into investor-ready pitch decks within minutes. Built with React, Office.js, and GPT-4 Turbo, the platform functions as an AI-powered venture capital advisor that generates professionally structured presentation frameworks covering problem statements, solutions, market opportunities, business models, competitive positioning, growth strategies, and investment narratives. The system includes an intelligent startup strategy engine that evaluates business concepts and produces actionable recommendations for market positioning and investor communication. A built-in design advisory module provides industry-specific guidance on presentation structure, visual hierarchy, typography, and color psychology, ensuring every deck follows professional fundraising standards. Generated content is synchronized directly into PowerPoint slides, dramatically accelerating pitch preparation while improving clarity, consistency, and strategic impact.",
+  technologies: [
+    "React.js",
+    "Microsoft Office.js",
+    "PowerPoint Add-ins",
+    "OpenAI GPT-4 Turbo",
+    "Startup Strategy",
+    "Pitch Deck Automation",
+    "Business Modeling",
+    "Market Analysis",
+    "Investor Presentations",
+    "Presentation Intelligence",
+    "AI Content Generation",
+    "Workflow Automation",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "26",
+  title: "SupplyChain Command AI",
+  tagline: "Real-Time Fleet Tracking & Predictive Logistics Intelligence Platform.",
+  category: "Web Development",
+  subType: "Supply Chain Management Platform",
+  images: [supplyChain1, supplyChain2,],
+  description:
+    "A mission-critical supply chain intelligence platform designed to provide organizations with complete real-time visibility into logistics operations, fleet movements, and inventory performance from a single centralized dashboard. Built using the MERN Stack, Socket.io, and GPT-4o, the platform combines live fleet tracking, inventory monitoring, and predictive analytics into a unified operational command center. An interactive mapping engine visualizes vehicle locations in real time through WebSocket-powered updates, while the AI-driven logistics intelligence layer continuously analyzes inventory levels, shipment delays, demand fluctuations, and operational risks. The system proactively generates replenishment recommendations, stock-out prevention strategies, and supply chain optimization insights, enabling logistics teams to make faster and more informed decisions. Designed for manufacturers, distributors, retailers, and logistics providers, the platform eliminates operational blind spots while improving efficiency, responsiveness, and supply chain resilience.",
+  technologies: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.io",
+    "React Leaflet",
+    "OpenAI GPT-4o",
+    "Supply Chain Analytics",
+    "Fleet Tracking",
+    "Inventory Management",
+    "Real-Time Monitoring",
+    "Web Development",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "27",
+  title: "SecureCode AI",
+  tagline: "AI-Powered Vulnerability Analysis & Security Remediation Platform.",
+  category: "Web Development",
+  subType: "Cybersecurity Platform",
+  images: [secureCode1, secureCode2, secureCode3, secureCode4, secureCode5],
+  description:
+    "A comprehensive cybersecurity platform designed to automate application security assessments, identify software vulnerabilities, and accelerate remediation workflows through artificial intelligence. Built with React, FastAPI, MongoDB, and GPT-4o, the platform performs multi-layer security analysis to detect common and advanced software weaknesses across source code repositories and application components. The system evaluates security risks, prioritizes findings based on severity, and generates detailed remediation guidance to help development teams strengthen application security. Interactive dashboards provide real-time vulnerability tracking, security insights, incident monitoring, and historical audit records, enabling organizations to maintain a proactive security posture. Designed for software teams, security analysts, and enterprise organizations, the platform significantly reduces manual review effort while improving visibility into application security risks and mitigation strategies.",
+  technologies: [
+    "React.js",
+    "Python",
+    "FastAPI",
+    "MongoDB",
+    "OpenAI GPT-4o",
+    "Application Security",
+    "Vulnerability Assessment",
+    "Cybersecurity",
+    "Security Analytics",
+    "Code Analysis",
+    "Risk Management",
+    "Web Development",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "28",
+  title: "CryptoTerminal AI",
+  tagline: "Real-Time Market Intelligence & AI-Powered Trading Analytics.",
+  category: "Office Add-ins",
+  subType: "Excel Add-ins",
+  images: [cryptoTerminal1, cryptoTerminal2, cryptoTerminal3],
+  description:
+    "A professional Microsoft Excel add-in designed to transform spreadsheets into a real-time financial intelligence and market analysis workspace. Built with React, Office.js, FastAPI, and GPT-4 Turbo, the platform streams live cryptocurrency, forex, and market pricing data directly into Excel while providing AI-powered analytical insights. The system continuously evaluates market movements, volatility patterns, price momentum, and trading signals to generate actionable investment intelligence through an interactive trading dashboard. Advanced analytics modules calculate dynamic market risk indicators, trend strength metrics, and sentiment-based evaluations, enabling users to make faster and more informed decisions without leaving Excel. Designed for traders, analysts, investors, and financial professionals, the solution combines live market monitoring, intelligent forecasting, and spreadsheet integration into a unified financial workflow.",
+  technologies: [
+    "React.js",
+    "Microsoft Office.js",
+    "Excel Add-ins",
+    "FastAPI",
+    "OpenAI GPT-4 Turbo",
+    "CoinGecko API",
+    "Forex APIs",
+    "Real-Time Data Streaming",
+    "Financial Analytics",
+    "Market Intelligence",
+    "Risk Analysis",
+    "Data Visualization",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "29",
+  title: "AuditGuard AI",
+  tagline: "Statistical Financial Auditing & Data Integrity Intelligence Platform.",
+  category: "Office Add-ins",
+  subType: "Excel Add-ins",
+  images: [auditGuard1, auditGuard2, auditGuard3, auditGuard4],
+  description:
+    "A professional Microsoft Excel add-in designed to automate financial auditing, anomaly detection, and data quality assessment for organizations managing large-scale datasets. Built with React, FastAPI, Pandas, Scipy, MongoDB, and GPT-4, the platform performs advanced statistical analysis to uncover hidden inconsistencies, unusual transactions, duplicate records, and missing data that can compromise reporting accuracy. The system leverages mathematical anomaly detection models, including Z-Score analysis, to identify outliers and suspicious patterns across thousands of spreadsheet records in seconds. An integrated AI audit engine transforms technical findings into executive-friendly reports, providing clear explanations, risk summaries, and strategic recommendations for improving data governance and operational accuracy. Historical audit reports are securely stored for compliance tracking and trend analysis, enabling organizations to maintain long-term financial integrity and reporting confidence.",
+  technologies: [
+    "React.js",
+    "Microsoft Office.js",
+    "Excel Add-ins",
+    "FastAPI",
+    "Python",
+    "Pandas",
+    "SciPy",
+    "OpenAI GPT-4",
+    "MongoDB",
+    "Statistical Analysis",
+    "Data Auditing",
+    "Anomaly Detection",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "30",
+  title: "CommerceCopy AI",
+  tagline: "AI-Powered Product Description & E-Commerce Content Generator.",
+  category: "Google Add-ons",
+  subType: "Google Sheet Add-ons",
+  images: [commerceCopy1, commerceCopy2, commerceCopy3, commerceCopy4, commerceCopy5, commerceCopy6],
+  description:
+    "A powerful Google Sheets add-on designed to automate high-converting product content creation for e-commerce businesses, marketplaces, and digital retailers. Built with Google Apps Script, React, Material UI, and OpenAI GPT-4o-mini, the platform transforms basic product information into persuasive, SEO-friendly product descriptions optimized for customer engagement and conversions. The solution features an intelligent copywriting engine that emphasizes benefits-driven messaging, emotional triggers, and customer-centric language while adapting content to different brand voices through customizable tone profiles. Users can instantly generate professional product listings directly within Google Sheets and insert content into adjacent cells with a single click, streamlining large-scale catalog management workflows. Designed for online sellers, agencies, and marketing teams, the platform dramatically reduces content production effort while maintaining consistency, quality, and conversion-focused messaging across thousands of products.",
+  technologies: [
+    "Google Apps Script",
+    "Google Sheets API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o-mini",
+    "Prompt Engineering",
+    "Content Generation",
+    "E-Commerce Automation",
+    "SEO Copywriting",
+    "Workflow Automation",
+    "Google Workspace",
+    "AI Writing Assistant",
+  ],
+  liveUrl: "#",
+},
 
 ];
 
