@@ -69,7 +69,7 @@ export default function Expertise() {
   return (
     <section
       id="expertise"
-      className="pt-24 pb-8 sm:pt-32 sm:pb-12 lg:pt-40 lg:pb-16 flex flex-col justify-between select-none border-t border-white/5"
+      className="pt-20 pb-8 sm:pt-30 sm:pb-12 lg:pt-30 lg:pb-16 flex flex-col justify-between select-none border-t border-white/5"
     >
       <motion.div
         variants={containerVariants}
