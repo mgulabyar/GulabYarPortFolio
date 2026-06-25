@@ -17,7 +17,7 @@ import Footer from "../Footer/Footer";
 export default function Hero() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [profile, setProfile] = useState<any>(null);
-
+// asdfand eslit
   useEffect(() => {
     fetch("http://localhost:5000/api/profile")
       .then((res) => res.json())
