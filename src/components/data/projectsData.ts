@@ -905,6 +905,7 @@ export const projects: Project[] = [
   liveUrl: "#",
 },
 
+
 {
   _id: "31",
   title: "EduFlow AI",
@@ -930,6 +931,7 @@ export const projects: Project[] = [
   ],
   liveUrl: "#",
 },
+
 
 {
   _id: "32",
@@ -957,6 +959,7 @@ export const projects: Project[] = [
   liveUrl: "#",
 },
 
+
 {
   _id: "33",
   title: "MailMind AI",
@@ -979,6 +982,32 @@ export const projects: Project[] = [
     "Workflow Automation",
     "Google Workspace",
     "AI Response Generation",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "34",
+  title: "OutreachForge AI",
+  tagline: "Hyper-Personalized Sales Outreach & Email Automation Engine.",
+  category: "Google Add-ons",
+  subType: "Google Sheet Add-ons",
+  images: [],
+  description:
+    "A powerful Google Sheets-based sales automation platform designed to generate highly personalized B2B outreach campaigns at scale. Built with Google Apps Script, React, Material UI, Gmail API, and OpenAI GPT-4o, the solution transforms prospect data into customized sales conversations by analyzing professional backgrounds, achievements, and role-specific insights before generating outreach content. The platform features an intelligent research engine that identifies personalized engagement opportunities, automatically crafts compelling subject lines and concise email copy, and routes messages through a structured review workflow before delivery. Integrated Gmail synchronization enables seamless campaign execution while maintaining human oversight and quality control. Designed for sales teams, agencies, recruiters, and business development professionals, the platform dramatically increases outreach efficiency, personalization quality, and response rates while eliminating manual prospect research workloads.",
+  technologies: [
+    "Google Apps Script",
+    "Google Sheets API",
+    "Gmail API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "Sales Automation",
+    "Email Personalization",
+    "Lead Research",
+    "Prompt Engineering",
+    "Workflow Automation",
+    "Google Workspace",
   ],
   liveUrl: "#",
 },
