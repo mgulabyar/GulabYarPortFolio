@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, ArrowLeft } from 'lucide-react';
 import { projects, type Project } from '../data/projectsData';
 import Footer from '../Footer/Footer';
-// CarouslIndex
 export default function ProjectDetail() {
   const { id } = useParams<{ id: string }>();
   const [carouselIndex, setCarouselIndex] = useState<number>(0);
