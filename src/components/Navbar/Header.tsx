@@ -78,7 +78,6 @@ export default function Header() {
     { name: "Expertise", path: "/expertise" },
     { name: "Portfolio", path: "/projects" },
   ];
-// motion.header asfand hidden.
   return (
     <motion.header
       variants={headerVariants}
