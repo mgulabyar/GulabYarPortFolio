@@ -1016,6 +1016,32 @@ export const projects: Project[] = [
   liveUrl: "#",
 },
 
+{
+  _id: "35",
+  title: "MeetingFlow AI",
+  tagline: "Automated Scheduling, Google Meet Creation & Calendar Intelligence.",
+  category: "Google Add-ons",
+  subType: "Google Sheet Add-ons",
+  images: [],
+  description:
+    "A comprehensive Google Sheets automation platform designed to streamline appointment scheduling, calendar management, and meeting coordination across organizations. Built using Google Apps Script, React, Google Calendar API, Gmail API, and Google Meet integration, the system transforms spreadsheets into an intelligent scheduling command center. The platform automatically validates availability against live calendar events, prevents double-bookings through real-time conflict detection, generates dedicated Google Meet links for every appointment, and dispatches professionally designed HTML invitations to participants. Background automation workflows continuously monitor scheduling requests and synchronize new bookings without manual intervention. Designed for consultants, agencies, sales teams, educational institutions, and service-based businesses, the solution delivers a fully automated scheduling experience while improving booking accuracy, communication quality, and operational efficiency.",
+  technologies: [
+    "Google Apps Script",
+    "Google Sheets API",
+    "Google Calendar API",
+    "Google Meet",
+    "Gmail API",
+    "React.js",
+    "Material UI",
+    "Workflow Automation",
+    "Calendar Synchronization",
+    "Appointment Scheduling",
+    "HTML Email Templates",
+    "Google Workspace",
+  ],
+  liveUrl: "#",
+},
+
 ];
 
 
