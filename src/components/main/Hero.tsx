@@ -75,7 +75,6 @@ export default function Hero() {
       transition: { duration: 1.6, ease: [0.25, 0.8, 0.25, 1] as const },
     },
   };
-// default function hero
   const slowSlideRight = {
     hidden: { opacity: 0, x: 70 },
     visible: {
