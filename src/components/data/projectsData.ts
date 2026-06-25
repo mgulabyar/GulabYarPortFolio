@@ -125,6 +125,7 @@ import meetingFlow2 from "../../assets/meetingFlow1 (2).png";
 import meetingFlow3 from "../../assets/meetingFlow1 (3).png";
 import meetingFlow4 from "../../assets/meetingFlow1 (4).png";
 import financePulse1 from "../../assets/financePulse1 (1).png";
+import financePulse2 from "../../assets/financePulse1 (2).png";
 export interface Project {
   _id: string;
   title: string;
@@ -1054,7 +1055,7 @@ export const projects: Project[] = [
   tagline: "Real-Time Finance, Crypto Tracking & Automated PDF Reporting.",
   category: "Google Add-ons",
   subType: "Google Sheet Add-ons",
-  images: [financePulse1],
+  images: [financePulse1, financePulse2],
   description:
     "A powerful Google Sheets financial intelligence platform designed to monitor global currency exchange rates, cryptocurrency markets, and financial performance data in real time. Built using Google Apps Script, React, and multiple financial data integrations, the platform automatically retrieves live market information from cryptocurrency and foreign exchange providers, enabling organizations and investors to maintain accurate financial records without manual updates. Advanced automation workflows continuously log market activity through background triggers, generate intelligent alerts, and maintain comprehensive audit trails for compliance and transparency. The solution also features a professional reporting engine capable of aggregating financial datasets into visually formatted PDF reports with executive-ready summaries, branded layouts, and color-coded performance metrics. Designed for investors, finance teams, analysts, and business owners, the platform transforms Google Sheets into a fully automated financial operations hub.",
   technologies: [
