@@ -117,7 +117,7 @@ export default function About() {
       </motion.div>
 
       <div className="w-full h-1 bg-linear-to-r from-transparent via-white/10 to-transparent my-16"></div>
-
+{/* function handleContainerVariants */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
