@@ -39,7 +39,7 @@ export default function Hero() {
   };
 
   const data = profile || defaultProfile;
-
+// tack stacn fo all skills
   const techStack = [
     "ASP.NET Core",
     "React",
