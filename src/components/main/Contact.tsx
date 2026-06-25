@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Mail, ShieldCheck, Clock, Building, Calendar } from 'lucide-react';
 import contactImg from '../../assets/Voice chat-amico.png';
 import Footer from '../Footer/Footer';
-
+// voogdf  contactImg
 const WhatsappIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 24 24"
