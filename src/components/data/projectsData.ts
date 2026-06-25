@@ -42,10 +42,6 @@ import legalGuard2 from "../../assets/legalGuard1 (2).png";
 import legalGuard3 from "../../assets/legalGuard1 (3).png";
 import legalGuard4 from "../../assets/legalGuard1 (4).png";
 import legalGuard5 from "../../assets/legalGuard1 (5).png";
-import scriptPilot1 from "../../assets/scriptPilot1 (1).png"
-import scriptPilot2 from "../../assets/scriptPilot1 (2).png"
-import scriptPilot3 from "../../assets/scriptPilot1 (3).png"
-import scriptPilot4 from "../../assets/scriptPilot1 (3).png"
 export interface Project {
   _id: string;
   title: string;
@@ -400,32 +396,6 @@ export const projects: Project[] = [
     "Natural Language Processing",
     "Document Intelligence",
     "Workflow Automation",
-  ],
-  liveUrl: "#",
-},
-
-{
-  _id: "15",
-  title: "ScriptPilot AI",
-  tagline: "AI-Powered Apps Script Coding Assistant & Debugging Studio.",
-  category: "Google Add-ons",
-  subType: "Google Sheet Add-ons",
-  images: [scriptPilot1, scriptPilot2, scriptPilot3, scriptPilot4],
-  description:
-    "A powerful Google Sheets development assistant that transforms Google Apps Script workflows through AI-driven code generation, debugging, and optimization. Built with a professional React and Material UI interface, the platform features an integrated dark-mode code editor with syntax-aware formatting, one-click code export, and an intelligent development workspace. Powered by GPT-4o, the system converts natural language requirements into production-ready Apps Script solutions, generates implementation guidance, and provides detailed logic explanations for every code block. An advanced debugging engine automatically detects syntax issues, API integration problems, and deployment errors while suggesting actionable fixes, enabling developers and business users to build, maintain, and deploy automation solutions significantly faster and more efficiently.",
-  technologies: [
-    "Google Apps Script",
-    "Google Sheets API",
-    "React.js",
-    "Material UI",
-    "OpenAI GPT-4o",
-    "Code Generation",
-    "AI Debugging",
-    "Prompt Engineering",
-    "JavaScript",
-    "Developer Tools",
-    "Workflow Automation",
-    "Code Analysis",
   ],
   liveUrl: "#",
 },
