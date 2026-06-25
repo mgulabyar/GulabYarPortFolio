@@ -6,7 +6,7 @@ import webGif from "../../assets/web-development-amico.png";
 import aiGif from "../../assets/artificial-intelligence-amico.png";
 import cloudGif from "../../assets/cloud-hosting-amico.png";
 import Footer from "../Footer/Footer";
-
+// asfand footer cloudGif
 export default function About() {
   const containerVariants = {
     hidden: { opacity: 0 },
