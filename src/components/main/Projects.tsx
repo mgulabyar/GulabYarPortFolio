@@ -3,7 +3,6 @@ import { motion, AnimatePresence, type Variants } from "framer-motion";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { projects, type Project } from "../data/projectsData";
 import Footer from "../Footer/Footer";
-// all portfolio
 export default function Projects() {
   const [selectedFilter, setSelectedFilter] = useState<string>("All Portfolio");
   const [activeProject, setActiveProject] = useState<Project | null>(null);
