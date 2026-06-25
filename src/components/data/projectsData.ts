@@ -105,8 +105,8 @@ import commerceCopy5 from "../../assets/commerceCopy1 (5).png";
 import commerceCopy6 from "../../assets/commerceCopy1 (6).png";
 import eduFlow1 from "../../assets/eduFlow1 (1).png";
 import eduFlow2 from "../../assets/eduFlow1 (2).png";
-import eduFlow3 from "../../assets/eduFlow1 (3).png";
-import eduFlow4 from "../../assets/eduFlow1 (4).png";
+// import eduFlow3 from "../../assets/eduFlow1 (3).png";
+// import eduFlow4 from "../../assets/eduFlow1 (4).png";
 export interface Project {
   _id: string;
   title: string;
@@ -902,7 +902,7 @@ export const projects: Project[] = [
   tagline: "AI-Powered Admissions Automation & CRM Synchronization Platform.",
   category: "Google Add-ons",
   subType: "Google Sheet Add-ons",
-  images: [eduFlow1, eduFlow2, eduFlow3, eduFlow4],
+  images: [eduFlow1, eduFlow2,],
   description:
     "A comprehensive Google Sheets-based admissions management platform designed to automate applicant evaluation, decision routing, and CRM synchronization for educational institutions, academies, training providers, and online learning organizations. Built with Google Apps Script, React, Material UI, and AI-powered automation workflows, the platform transforms spreadsheets into a centralized admissions command center capable of processing high volumes of applications with speed and consistency. The system intelligently evaluates applicant records against predefined admission criteria, assigns eligibility statuses, routes decisions through automated workflows, and synchronizes approved candidates with external CRM systems in real time. Advanced dashboards provide visibility into application pipelines, enrollment trends, approval rates, and admissions performance metrics. Designed to eliminate manual administrative workloads, the platform accelerates admissions processing while improving operational efficiency, accuracy, and applicant experience.",
   technologies: [
