@@ -50,6 +50,7 @@ export default function ProjectDetail() {
                     src={project.images[carouselIndex]} className="w-full h-full object-contain drop-shadow-3xl min-h-75" 
                   />
                 </AnimatePresence>
+                {/* AnimationPresence */}
                 <div className="absolute inset-x-6 flex justify-between">
                    <button onClick={prevImage} className="p-2 rounded-full bg-brand-orange/90 text-white shadow-glow-orange cursor-pointer border border-white/10"><ChevronLeft size={24}/></button>
                    <button onClick={nextImage} className="p-2 rounded-full bg-brand-orange/90 text-white shadow-glow-orange cursor-pointer border border-white/10"><ChevronRight size={24}/></button>
