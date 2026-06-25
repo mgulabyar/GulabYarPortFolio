@@ -57,6 +57,7 @@ export default function ProjectDetail() {
             </div>
           </div>
         </div>
+        {/* dir */}
       </div>
       <Footer />
     </div>
