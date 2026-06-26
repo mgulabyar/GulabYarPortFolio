@@ -254,7 +254,6 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Premium Cinematic Custom Cubic Beziers (Slow & Luxury Deceleration)
   const easeOutExpo = [0.16, 1, 0.3, 1] as const;
   const easeInOutQuint = [0.83, 0, 0.17, 1] as const;
 
@@ -278,7 +277,7 @@ export default function Header() {
       transition: { 
         duration: 2.0, 
         ease: easeOutExpo,
-        delay: 0.15 // Subtle delay after header starts
+        delay: 0.15
       },
     },
   };
@@ -291,7 +290,7 @@ export default function Header() {
       transition: { 
         duration: 2.0, 
         ease: easeOutExpo,
-        delay: 0.3 // Appears after Logo
+        delay: 0.3 
       },
     },
   };
@@ -304,7 +303,7 @@ export default function Header() {
       transition: { 
         duration: 2.0, 
         ease: easeOutExpo,
-        delay: 0.45 // Final element to lock in
+        delay: 0.45 
       },
     },
   };
@@ -354,7 +353,6 @@ export default function Header() {
           : "bg-brand-dark/50 backdrop-blur-md py-5.5 px-6 md:px-12"
       }`}
     >
-      {/* 1. Logo (Glides smoothly from Left to Right over 2 seconds) */}
       <Link to="/">
         <motion.div
           variants={logoVariants}
@@ -384,7 +382,6 @@ export default function Header() {
         </motion.div>
       </Link>
 
-      {/* 2. Navigation Menu (Glides smoothly from Top to Bottom over 2 seconds) */}
       <motion.nav
         variants={navVariants}
         className="hidden md:flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2"
@@ -417,7 +414,6 @@ export default function Header() {
         ))}
       </motion.nav>
 
-      {/* 3. Contact Button (Glides smoothly from Right to Left over 2 seconds) */}
       <motion.div
         variants={buttonVariants}
         className="hidden md:flex items-center"
@@ -435,7 +431,6 @@ export default function Header() {
         </NavLink>
       </motion.div>
 
-      {/* Mobile Menu Icon */}
       <div className="relative h-6 w-6 z-50 md:hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -467,7 +462,6 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Sidebar */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
