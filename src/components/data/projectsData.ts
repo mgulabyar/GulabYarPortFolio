@@ -129,6 +129,22 @@ import financePulse2 from "../../assets/financePulse1 (2).png";
 import financePulse3 from "../../assets/financePulse1 (3).png";
 import financePulse4 from "../../assets/financePulse1 (4).png";
 import financePulse5 from "../../assets/financePulse1 (5).png";
+import routeMaster1 from "../../assets/routeMaster1 (1).png";
+import routeMaster2 from "../../assets/routeMaster1 (2).png";
+import routeMaster3 from "../../assets/routeMaster1 (3).png";
+import resumeTailor1 from "../../assets/resumeTailor1 (1).png";
+import resumeTailor2 from "../../assets/resumeTailor1 (2).png";
+import resumeTailor3 from "../../assets/resumeTailor1 (3).png";
+import resumeTailor4 from "../../assets/resumeTailor1 (4).png";
+import inboxPilot1 from "../../assets/inboxPilot1 (1).png";
+import inboxPilot2 from "../../assets/inboxPilot1 (2).png";
+import inboxPilot3 from "../../assets/inboxPilot1 (3).png";
+import inventoryOracle1 from "../../assets/inventoryOracle1 (1).png";
+import inventoryOracle2 from "../../assets/inventoryOracle1 (2).png";
+import courseArchitect1 from "../../assets/courseArchitect1 (1).png";
+import courseArchitect2 from "../../assets/courseArchitect1 (2).png";
+import courseArchitect3 from "../../assets/courseArchitect1 (3).png";
+
 export interface Project {
   _id: string;
   title: string;
@@ -1073,6 +1089,136 @@ export const projects: Project[] = [
     "Cryptocurrency Tracking",
     "Workflow Automation",
     "Audit Logging",
+    "Google Workspace",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "37",
+  title: "RouteMaster AI",
+  tagline: "AI Logistics Planning & Intelligent Route Synchronization for Excel.",
+  category: "Office Add-ins",
+  subType: "Excel Add-ins",
+  images: [routeMaster1, routeMaster2, routeMaster3],
+  description:
+    "A professional Microsoft Excel add-in built to automate logistics planning, route analysis, and transportation reporting through artificial intelligence. Developed using React, Office.js, Node.js, and OpenAI GPT-4o, the platform transforms Excel into an intelligent logistics command center by generating travel estimates, operational insights, and AI-powered route recommendations directly within spreadsheets. The solution automatically synchronizes transportation reports into Excel worksheets, maintains centralized route records, and provides an interactive dashboard for monitoring planning workflows in real time. A secure Node.js API layer manages AI requests while ensuring reliable communication between Excel and backend services. Designed for logistics providers, transportation companies, fleet managers, and supply chain teams, the platform streamlines route planning, improves reporting accuracy, and significantly reduces manual operational workloads.",
+  technologies: [
+    "React.js",
+    "Microsoft Office.js",
+    "Excel Add-ins",
+    "Node.js",
+    "OpenAI GPT-4o",
+    "REST APIs",
+    "Logistics Automation",
+    "Route Planning",
+    "Transportation Analytics",
+    "Excel Automation",
+    "Workflow Automation",
+    "Business Intelligence",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "38",
+  title: "ResumeTailor AI",
+  tagline: "AI-Powered ATS Resume & Cover Letter Optimization for Google Docs.",
+  category: "Google Add-ons",
+  subType: "Google Docs Add-ons",
+  images: [resumeTailor1, resumeTailor2, resumeTailor3, resumeTailor4],
+  description:
+    "A professional Google Docs add-on designed to help job seekers create ATS-optimized resumes and personalized cover letters directly within their document workspace. Built using Google Apps Script, React, Material UI, and OpenAI GPT-4o, the platform analyzes resumes against specific job descriptions to calculate compatibility scores, identify missing keywords, and recommend targeted improvements that align with applicant tracking system requirements. The solution features a real-time ATS scoring engine, intelligent keyword optimization, and AI-powered resume rewriting while preserving the candidate's professional experience and achievements. An interactive split-view interface allows users to compare their original resume with the optimized version side by side, enabling faster revisions and better career outcomes. Designed for professionals, graduates, recruiters, and career coaches, the platform streamlines resume optimization and significantly improves job application quality.",
+  technologies: [
+    "Google Apps Script",
+    "Google Docs API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "Prompt Engineering",
+    "ATS Optimization",
+    "Resume Analysis",
+    "Cover Letter Generation",
+    "Keyword Matching",
+    "Document Automation",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "39",
+  title: "InboxPilot AI",
+  tagline: "AI-Powered Email Marketing & Spam Optimization Engine.",
+  category: "Google Add-ons",
+  subType: "Gmail Add-ons",
+  images: [inboxPilot1, inboxPilot2, inboxPilot3],
+  description:
+    "A professional Gmail and Google Sheets automation platform built to streamline large-scale email marketing through intelligent personalization and spam prevention. Developed using Google Apps Script, React, Material UI, and OpenAI GPT-4o, the solution generates highly personalized outreach emails based on lead profiles stored in Google Sheets while automatically evaluating message quality before delivery. An integrated Spam Shield engine analyzes AI-generated content for high-risk phrases, helping improve inbox placement and protect sender reputation. The platform includes real-time campaign progress tracking, delivery monitoring, and spam status logging, enabling marketing teams to manage outreach campaigns with greater confidence and transparency. Designed for sales organizations, agencies, recruiters, and marketing teams, the platform significantly improves campaign performance while reducing manual effort and email deliverability risks.",
+  technologies: [
+    "Google Apps Script",
+    "React.js",
+    "Material UI",
+    "Gmail API",
+    "Google Sheets API",
+    "OpenAI GPT-4o",
+    "Email Personalization",
+    "Spam Detection",
+    "Campaign Automation",
+    "Progress Tracking",
+    "JSON Processing",
+    "Workflow Automation",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "40",
+  title: "InventoryOracle AI",
+  tagline: "Predictive Inventory Forecasting & Intelligent Vendor Procurement.",
+  category: "Google Add-ons",
+  subType: "Google Sheet Add-ons",
+  images: [inventoryOracle1, inventoryOracle2],
+  description:
+    "A powerful Google Sheets inventory intelligence platform designed to help businesses forecast stock levels, automate procurement workflows, and prevent inventory shortages before they occur. Built using Google Apps Script, React, Material UI, Gmail API, and OpenAI GPT-4o, the solution analyzes historical sales trends to predict inventory depletion dates and continuously monitors product availability against configurable safety stock thresholds. When inventory reaches critical levels, the platform automatically prepares professional Request for Quotation (RFQ) drafts in Gmail, enabling procurement teams to contact vendors with minimal effort. Interactive inventory health dashboards, real-time days-of-stock tracking, and multi-vendor procurement automation provide complete visibility into supply operations. Designed for retailers, wholesalers, e-commerce businesses, and supply chain teams, the platform transforms Google Sheets into a predictive inventory management and procurement command center.",
+  technologies: [
+    "Google Apps Script",
+    "Google Sheets API",
+    "Gmail API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "Inventory Forecasting",
+    "Procurement Automation",
+    "Demand Forecasting",
+    "Email Automation",
+    "Workflow Automation",
+    "Business Intelligence",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "41",
+  title: "CourseArchitect AI",
+  tagline: "AI Curriculum Designer & Google Workspace Course Automation.",
+  category: "Google Add-ons",
+  subType: "Google Sheet Add-ons",
+  images: [courseArchitect1, courseArchitect2, courseArchitect3],
+  description:
+    "A professional Google Workspace automation platform that transforms simple course ideas into fully structured academic syllabi within minutes. Built using Google Apps Script, React, Material UI, Google Sheets, Google Docs, and OpenAI GPT-4o, the solution enables educators and training organizations to generate comprehensive 12-week curriculum plans directly from spreadsheet inputs. The AI engine produces structured lesson plans, learning objectives, weekly assignments, and course milestones using JSON-based content generation for consistent formatting and accuracy. Once generated, the platform automatically creates a professionally formatted Google Docs document with hierarchical headings, organized sections, and publication-ready layouts stored directly in Google Drive. Designed for educators, universities, corporate trainers, and EdTech organizations, the platform dramatically accelerates curriculum development while maintaining professional academic standards.",
+  technologies: [
+    "Google Apps Script",
+    "Google Sheets API",
+    "Google Docs API",
+    "Google Drive API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "JSON Processing",
+    "Document Automation",
+    "Curriculum Generation",
+    "Workflow Automation",
     "Google Workspace",
   ],
   liveUrl: "#",
