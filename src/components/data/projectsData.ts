@@ -144,6 +144,12 @@ import inventoryOracle2 from "../../assets/inventoryOracle1 (2).png";
 import courseArchitect1 from "../../assets/courseArchitect1 (1).png";
 import courseArchitect2 from "../../assets/courseArchitect1 (2).png";
 import courseArchitect3 from "../../assets/courseArchitect1 (3).png";
+import supportBridge1 from "../../assets/supportBridge1 (1).png";
+import supportBridge2 from "../../assets/supportBridge1 (2).png";
+import supportBridge3 from "../../assets/supportBridge1 (3).png";
+import coldMail1 from "../../assets/coldMail1 (1).png";
+import coldMail2 from "../../assets/coldMail1 (2).png";
+import coldMail3 from "../../assets/coldMail1 (3).png";
 
 export interface Project {
   _id: string;
@@ -1218,6 +1224,58 @@ export const projects: Project[] = [
     "JSON Processing",
     "Document Automation",
     "Curriculum Generation",
+    "Workflow Automation",
+    "Google Workspace",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "42",
+  title: "SupportBridge AI",
+  tagline: "Multilingual Customer Support & AI Ticket Management Platform.",
+  category: "Google Add-ons",
+  subType: "Gmail Add-ons",
+  images: [supportBridge1, supportBridge2, supportBridge3],
+  description:
+    "A powerful Google Workspace support automation platform that enables organizations to manage multilingual customer communications directly from Gmail while maintaining a centralized support dashboard in Google Sheets. Built using Google Apps Script, React, Material UI, Gmail API, Google Sheets API, and OpenAI GPT-4o, the platform automatically detects the language of incoming emails, translates messages into English, and synchronizes customer conversations with an organized ticket management system. AI-generated response drafts are produced in the customer's native language, allowing support teams to deliver personalized assistance without language barriers. An integrated sentiment analysis and priority scoring engine identifies urgent or dissatisfied customers, enabling rapid escalation and improved service quality. Designed for global businesses, customer support teams, SaaS companies, and service providers, the platform streamlines multilingual support operations while significantly improving response efficiency.",
+  technologies: [
+    "Google Apps Script",
+    "Gmail API",
+    "Google Sheets API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "Language Detection",
+    "AI Translation",
+    "Sentiment Analysis",
+    "Ticket Management",
+    "Workflow Automation",
+    "Google Workspace",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "43",
+  title: "ColdMail AI",
+  tagline: "AI-Powered Cold Email Generation & Smart Gmail Drafting.",
+  category: "Google Add-ons",
+  subType: "Gmail Add-ons",
+  images: [coldMail1, coldMail2, coldMail3],
+  description:
+    "A professional Gmail add-on designed to accelerate B2B outreach by generating highly personalized cold emails directly within the Gmail compose experience. Built using Google Apps Script Card Service, React, Material UI, Gmail API, and OpenAI GPT-4o, the platform enables users to create compelling outreach campaigns from a simple business prompt without leaving Gmail. The AI automatically generates optimized subject lines, persuasive email content, and professionally structured message layouts while supporting multiple communication styles including Professional, Friendly, and Short & Crisp. Native Gmail draft creation allows users to instantly review, edit, and send AI-generated outreach messages without manual copy-pasting. Designed for sales professionals, agencies, recruiters, founders, and business development teams, the platform streamlines prospect communication and significantly improves outreach productivity.",
+  technologies: [
+    "Google Apps Script",
+    "Google Apps Script Card Service",
+    "Gmail API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "Prompt Engineering",
+    "Email Generation",
+    "Cold Outreach",
+    "Draft Automation",
     "Workflow Automation",
     "Google Workspace",
   ],
