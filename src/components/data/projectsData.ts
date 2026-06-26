@@ -150,6 +150,12 @@ import supportBridge3 from "../../assets/supportBridge1 (3).png";
 import coldMail1 from "../../assets/coldMail1 (1).png";
 import coldMail2 from "../../assets/coldMail1 (2).png";
 import coldMail3 from "../../assets/coldMail1 (3).png";
+import slideDesigner1 from "../../assets/slideDesigner1 (1).png";
+import slideDesigner2 from "../../assets/slideDesigner1 (2).png";
+import slideDesigner3 from "../../assets/slideDesigner1 (3).png";
+import slideDesigner4 from "../../assets/slideDesigner1 (4).png";
+import slideDesigner5 from "../../assets/slideDesigner1 (5).png";
+import slideDesigner6 from "../../assets/slideDesigner1 (6).png";
 
 export interface Project {
   _id: string;
@@ -1278,6 +1284,31 @@ export const projects: Project[] = [
     "Draft Automation",
     "Workflow Automation",
     "Google Workspace",
+  ],
+  liveUrl: "#",
+},
+
+
+{
+  _id: "40",
+  title: "AI Slide Designer",
+  tagline: "Automated AI Presentation & Google Slides Generation Engine.",
+  category: "Google Add-ons",
+  subType: "Google Slides Add-ons",
+  images: [slideDesigner1, slideDesigner2, slideDesigner3, slideDesigner4, slideDesigner5, slideDesigner6 ],
+  description:
+    "An enterprise-grade Google Slides add-on that transforms topics, reports, and business content into professionally structured presentations using artificial intelligence. Built with React, Material UI, and Google Apps Script, the platform leverages OpenAI GPT-4o to intelligently organize content into presentation-ready slide sequences, automatically generating new Google Slides with structured layouts, titles, subtitles, and concise bullet points. The solution features a modern interactive sidebar with live generation progress, enabling users to create polished presentations in seconds while eliminating manual formatting and slide creation workflows.",
+  technologies: [
+    "Google Apps Script",
+    "Google Slides API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "Presentation Automation",
+    "AI Content Generation",
+    "Google Workspace",
+    "Workflow Automation",
+    "UI/UX Design",
   ],
   liveUrl: "#",
 },
