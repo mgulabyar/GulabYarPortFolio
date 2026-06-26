@@ -271,7 +271,7 @@ export default function Header() {
       transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as const },
     },
   };
-
+// asfand
   const navVariants: Variants = {
     hidden: { opacity: 0, y: -15 },
     visible: {
