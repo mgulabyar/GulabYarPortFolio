@@ -254,48 +254,59 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Premium Custom Cubic Beziers
+  const easeOutExpo = [0.16, 1, 0.3, 1] as const;
+  const easeInOutQuint = [0.83, 0, 0.17, 1] as const;
+
+  // Parent container staggers the entrance of its child elements
   const headerVariants: Variants = {
-    hidden: { opacity: 0, y: -80 },
+    hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      y: 0,
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as const },
+      transition: {
+        staggerChildren: 0.12,
+        delayChildren: 0.1,
+      },
     },
   };
 
   const logoVariants: Variants = {
-    hidden: { opacity: 0, x: -50 },
+    hidden: { opacity: 0, x: -35 },
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as const },
+      transition: { duration: 0.9, ease: easeOutExpo },
     },
   };
-// asfand
+
   const navVariants: Variants = {
-    hidden: { opacity: 0, y: -15 },
+    hidden: { opacity: 0, y: -25 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as const },
+      transition: { duration: 0.9, ease: easeOutExpo },
     },
   };
 
   const buttonVariants: Variants = {
-    hidden: { opacity: 0, x: 50 },
+    hidden: { opacity: 0, x: 35 },
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as const },
+      transition: { duration: 0.9, ease: easeOutExpo },
     },
   };
 
   const sidebarVariants: Variants = {
-    closed: { opacity: 0, x: "100%" },
+    closed: { 
+      opacity: 0, 
+      x: "100%",
+      transition: { duration: 0.4, ease: easeInOutQuint }
+    },
     open: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] as const },
+      transition: { duration: 0.6, ease: easeOutExpo },
     },
   };
 
@@ -309,7 +320,7 @@ export default function Header() {
     open: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.4, ease: [0.16, 1, 0.3, 1] as const },
+      transition: { duration: 0.4, ease: easeOutExpo },
     },
   };
 
@@ -331,6 +342,7 @@ export default function Header() {
           : "bg-brand-dark/50 backdrop-blur-md py-5 px-6 md:px-12"
       }`}
     >
+      {/* 1. Logo Section (Glides from Left to Right) */}
       <Link to="/">
         <motion.div
           variants={logoVariants}
@@ -360,6 +372,7 @@ export default function Header() {
         </motion.div>
       </Link>
 
+      {/* 2. Navigation Links (Glides Down from Top to Bottom) */}
       <motion.nav
         variants={navVariants}
         className="hidden md:flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2"
@@ -392,6 +405,7 @@ export default function Header() {
         ))}
       </motion.nav>
 
+      {/* 3. Contact Button (Glides from Right to Left) */}
       <motion.div
         variants={buttonVariants}
         className="hidden md:flex items-center"
@@ -409,6 +423,7 @@ export default function Header() {
         </NavLink>
       </motion.div>
 
+      {/* Mobile Toggle Button */}
       <div className="relative h-6 w-6 z-50 md:hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
