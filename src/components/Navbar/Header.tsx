@@ -254,46 +254,58 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Premium Custom Cubic Beziers
+  // Premium Cinematic Custom Cubic Beziers (Slow & Luxury Deceleration)
   const easeOutExpo = [0.16, 1, 0.3, 1] as const;
   const easeInOutQuint = [0.83, 0, 0.17, 1] as const;
 
-  // Parent container staggers the entrance of its child elements
   const headerVariants: Variants = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 0, y: -20 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.12,
-        delayChildren: 0.1,
+      y: 0,
+      transition: { 
+        duration: 2.0, 
+        ease: easeOutExpo 
       },
     },
   };
 
   const logoVariants: Variants = {
-    hidden: { opacity: 0, x: -35 },
+    hidden: { opacity: 0, x: -40 },
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.9, ease: easeOutExpo },
+      transition: { 
+        duration: 2.0, 
+        ease: easeOutExpo,
+        delay: 0.15 // Subtle delay after header starts
+      },
     },
   };
 
   const navVariants: Variants = {
-    hidden: { opacity: 0, y: -25 },
+    hidden: { opacity: 0, y: -15 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.9, ease: easeOutExpo },
+      transition: { 
+        duration: 2.0, 
+        ease: easeOutExpo,
+        delay: 0.3 // Appears after Logo
+      },
     },
   };
 
   const buttonVariants: Variants = {
-    hidden: { opacity: 0, x: 35 },
+    hidden: { opacity: 0, x: 40 },
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.9, ease: easeOutExpo },
+      transition: { 
+        duration: 2.0, 
+        ease: easeOutExpo,
+        delay: 0.45 // Final element to lock in
+      },
     },
   };
 
@@ -301,18 +313,18 @@ export default function Header() {
     closed: { 
       opacity: 0, 
       x: "100%",
-      transition: { duration: 0.4, ease: easeInOutQuint }
+      transition: { duration: 0.5, ease: easeInOutQuint }
     },
     open: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.6, ease: easeOutExpo },
+      transition: { duration: 0.8, ease: easeOutExpo },
     },
   };
 
   const listContainerVariants: Variants = {
     closed: { transition: { staggerChildren: 0.05, staggerDirection: -1 } },
-    open: { transition: { staggerChildren: 0.08, delayChildren: 0.15 } },
+    open: { transition: { staggerChildren: 0.08, delayChildren: 0.2 } },
   };
 
   const linkItemVariants: Variants = {
@@ -320,7 +332,7 @@ export default function Header() {
     open: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.4, ease: easeOutExpo },
+      transition: { duration: 0.5, ease: easeOutExpo },
     },
   };
 
@@ -338,11 +350,11 @@ export default function Header() {
       animate="visible"
       className={`fixed top-0 left-0 w-full z-50 border-b border-white/5 transition-[padding,background-color,backdrop-filter,border-color] duration-500 ease-out flex items-center justify-between ${
         isScrolled
-          ? "bg-brand-dark/95 backdrop-blur-lg py-3 px-6 md:px-12 shadow-2xl"
-          : "bg-brand-dark/50 backdrop-blur-md py-5 px-6 md:px-12"
+          ? "bg-brand-dark/95 backdrop-blur-lg py-3.5 px-6 md:px-12 shadow-2xl"
+          : "bg-brand-dark/50 backdrop-blur-md py-5.5 px-6 md:px-12"
       }`}
     >
-      {/* 1. Logo Section (Glides from Left to Right) */}
+      {/* 1. Logo (Glides smoothly from Left to Right over 2 seconds) */}
       <Link to="/">
         <motion.div
           variants={logoVariants}
@@ -350,7 +362,7 @@ export default function Header() {
         >
           <svg
             viewBox="0 0 24 24"
-            className="h-6 w-6 text-brand-orange filter drop-shadow-[0_0_6px_#FF5500] transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:rotate-180"
+            className="h-6 w-6 text-brand-orange filter drop-shadow-[0_0_6px_#FF5500] transition-transform duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:rotate-180"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
@@ -372,7 +384,7 @@ export default function Header() {
         </motion.div>
       </Link>
 
-      {/* 2. Navigation Links (Glides Down from Top to Bottom) */}
+      {/* 2. Navigation Menu (Glides smoothly from Top to Bottom over 2 seconds) */}
       <motion.nav
         variants={navVariants}
         className="hidden md:flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2"
@@ -405,7 +417,7 @@ export default function Header() {
         ))}
       </motion.nav>
 
-      {/* 3. Contact Button (Glides from Right to Left) */}
+      {/* 3. Contact Button (Glides smoothly from Right to Left over 2 seconds) */}
       <motion.div
         variants={buttonVariants}
         className="hidden md:flex items-center"
@@ -423,7 +435,7 @@ export default function Header() {
         </NavLink>
       </motion.div>
 
-      {/* Mobile Toggle Button */}
+      {/* Mobile Menu Icon */}
       <div className="relative h-6 w-6 z-50 md:hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -436,7 +448,7 @@ export default function Header() {
                 initial={{ rotate: -180, opacity: 0 }}
                 animate={{ rotate: 0, opacity: 1 }}
                 exit={{ rotate: 180, opacity: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.4, ease: easeOutExpo }}
               >
                 <X className="h-6 w-6 text-brand-orange" />
               </motion.div>
@@ -446,7 +458,7 @@ export default function Header() {
                 initial={{ rotate: 180, opacity: 0 }}
                 animate={{ rotate: 0, opacity: 1 }}
                 exit={{ rotate: -180, opacity: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.4, ease: easeOutExpo }}
               >
                 <Menu className="h-6 w-6" />
               </motion.div>
