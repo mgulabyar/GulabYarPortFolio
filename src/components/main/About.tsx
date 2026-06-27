@@ -21,7 +21,6 @@ export default function About() {
     },
   };
 
-  // Fluid entrance from Left
   const slideInLeft: Variants = {
     hidden: { opacity: 0, x: -30 },
     visible: {
