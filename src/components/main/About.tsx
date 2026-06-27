@@ -285,7 +285,6 @@ export default function About() {
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center px-6 md:px-12">
         
-        {/* Left Column - Cloud Illustration */}
         <motion.div
           variants={illustrationVariants}
           initial="hidden"
