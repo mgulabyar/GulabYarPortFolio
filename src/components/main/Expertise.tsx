@@ -79,6 +79,7 @@ export default function Expertise() {
         viewport={{ once: true, amount: 0.3 }}
         className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full px-6 md:px-12"
       >
+        {/* ss */}
         <div className="lg:col-span-7 flex flex-col gap-5">
           <motion.h2
             variants={slowSlideLeft}
