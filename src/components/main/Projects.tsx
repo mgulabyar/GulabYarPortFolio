@@ -206,7 +206,6 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Footer Content */}
                 <div className="p-8 bg-slate-950/40 text-center border-t border-white/5">
                   <h3 className="text-xl font-black text-white group-hover:text-brand-orange transition-colors duration-300">
                     {project.title}
