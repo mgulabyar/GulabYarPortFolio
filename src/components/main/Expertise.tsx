@@ -64,7 +64,6 @@ export default function Expertise() {
     },
   };
 
-  // Staggered Upward Bubbling for Cards
   const cardItemVariants: Variants = {
     hidden: { opacity: 0, y: 25 },
     visible: {
