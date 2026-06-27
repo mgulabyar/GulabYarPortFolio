@@ -19,7 +19,6 @@ const WhatsappIcon = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 export default function Contact() {
-  // Premium Cinematic Custom Cubic Beziers (Luxury Deceleration)
   const easeOutExpo = [0.16, 1, 0.3, 1] as const;
 
   const containerVariants: Variants = {
