@@ -10,7 +10,6 @@ import Footer from "../Footer/Footer";
 export default function About() {
   const easeOutExpo = [0.16, 1, 0.3, 1] as const;
 
-  // Stagger Container for Text Elements Cascading
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
