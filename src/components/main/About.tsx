@@ -39,7 +39,6 @@ export default function About() {
     },
   };
 
-  // Seamless Fade-in for heavy illustrations/Gifs
   const illustrationVariants: Variants = {
     hidden: { opacity: 0, scale: 0.98 },
     visible: {
