@@ -137,7 +137,6 @@ export default function Projects() {
           </motion.p>
         </motion.div>
 
-        {/* 2. Categories Filters Bar (Horizontal Wave Entrance) */}
         <motion.div
           variants={filterContainerVariants}
           initial="hidden"
@@ -161,7 +160,6 @@ export default function Projects() {
           ))}
         </motion.div>
 
-        {/* 3. Projects Responsive Grid (Staggered and Untouched) */}
         <motion.div
           layout
           variants={gridContainerVariants}
@@ -179,7 +177,6 @@ export default function Projects() {
                 exit={{ opacity: 0, scale: 0.9, transition: { duration: 0.4 } }}
                 className="group rounded-3xl border border-white/5 bg-slate-900/20 hover:border-brand-orange/30 overflow-hidden transition-[border-color,box-shadow,background-color] duration-500 ease-out shadow-2xl flex flex-col"
               >
-                {/* Image Section */}
                 <div className="relative aspect-16/10 bg-black/40 flex items-center justify-center p-4 overflow-hidden">
                   <img
                     src={project.images[0]}
@@ -187,7 +184,6 @@ export default function Projects() {
                     className="w-full h-full object-contain filter brightness-[0.8] group-hover:brightness-100 group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                   />
                   
-                  {/* Overlay Interaction elements */}
                   <div className="absolute inset-0 bg-brand-dark/80 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-[opacity,backdrop-filter] duration-500 ease-out flex items-center justify-center gap-4 z-20">
                     <button
                       onClick={() => {
