@@ -79,7 +79,6 @@ export default function Expertise() {
       className="pt-20 pb-8 sm:pt-30 sm:pb-12 lg:pt-30 lg:pb-16 flex flex-col justify-between select-none border-t border-white/5 overflow-hidden"
     >
       
-      {/* SECTION 1: Main Introduction (Assembles dynamically on Scroll) */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -163,7 +162,6 @@ export default function Expertise() {
 
       <div className="w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent my-16"></div>
 
-      {/* SECTION 2: MS Office Integration Details */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -232,7 +230,6 @@ export default function Expertise() {
 
       <div className="w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent my-16"></div>
 
-      {/* SECTION 3: Supported Office Modules (Horizontal Cards) */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -378,7 +375,6 @@ export default function Expertise() {
 
       <div className="w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent my-16"></div>
 
-      {/* SECTION 4: Google Workspace Add-ons */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -447,7 +443,6 @@ export default function Expertise() {
 
       <div className="w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent my-16"></div>
 
-      {/* SECTION 5: Google Workspace Modules (Horizontal Cards) */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -592,7 +587,6 @@ export default function Expertise() {
 
       <div className="w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent my-16"></div>
 
-      {/* SECTION 6: High Performance Web Engineering */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -660,7 +654,6 @@ export default function Expertise() {
 
       <div className="w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent my-16"></div>
 
-      {/* SECTION 7: Supported Web Frameworks (Horizontal Cards) */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
