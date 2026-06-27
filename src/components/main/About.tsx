@@ -8,7 +8,6 @@ import cloudGif from "../../assets/cloud-hosting-amico.png";
 import Footer from "../Footer/Footer";
 
 export default function About() {
-  // Premium Custom Cubic Beziers (Cinematic Luxury Easing)
   const easeOutExpo = [0.16, 1, 0.3, 1] as const;
 
   // Stagger Container for Text Elements Cascading
