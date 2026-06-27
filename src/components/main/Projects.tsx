@@ -244,9 +244,7 @@ export default function Projects() {
                 </button>
               </div>
 
-              {/* Modal Core Layout */}
               <div className="flex flex-col lg:flex-row overflow-y-auto">
-                {/* Description Side */}
                 <div className="lg:w-1/2 p-8 md:p-10 order-2 lg:order-1">
                   <h4 className="text-xl font-bold text-white mb-6">
                     {activeProject.tagline}
@@ -272,7 +270,6 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Media Carousel Side */}
                 <div className="lg:w-1/2 bg-black/40 p-6 flex items-center justify-center relative order-1 lg:order-2 border-b lg:border-b-0 lg:border-l border-white/5 min-h-87.5">
                   <AnimatePresence mode="wait">
                     <motion.img
@@ -287,7 +284,6 @@ export default function Projects() {
                     />
                   </AnimatePresence>
                   
-                  {/* Carousel Controllers */}
                   <div className="absolute inset-x-4 flex justify-between">
                     <button
                       onClick={prevImage}
