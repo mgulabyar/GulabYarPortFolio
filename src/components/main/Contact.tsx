@@ -147,7 +147,6 @@ export default function Contact() {
             viewport={{ once: true, amount: 0.15 }}
             className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6 w-full mt-4"
           >
-            {/* Card 1: Direct Connect */}
             <motion.div
               variants={cardItemVariants}
               className="p-6 rounded-2xl bg-slate-900/40 border border-white/5 hover:border-brand-orange/30 hover:shadow-glow-soft transition-[border-color,box-shadow,background-color] duration-500 ease-out flex flex-col items-center gap-3 text-center group cursor-pointer"
