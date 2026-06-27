@@ -86,7 +86,6 @@ export default function Projects() {
     },
   };
 
-  // Project Cards Grid Entrance (Remained untouched and highly optimized)
   const gridContainerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -114,7 +113,6 @@ export default function Projects() {
     >
       <div className="w-full px-6 md:px-12 max-w-350 mx-auto">
         
-        {/* 1. Header Text Section (Sequential Slide & Reveal) */}
         <motion.div
           variants={headerStaggerVariants}
           initial="hidden"
