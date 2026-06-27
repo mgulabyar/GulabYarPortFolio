@@ -25,7 +25,7 @@ import Footer from "../Footer/Footer";
 export default function Expertise() {
   const easeOutExpo = [0.16, 1, 0.3, 1] as const;
 
-  // Stagger Container Variants
+
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
