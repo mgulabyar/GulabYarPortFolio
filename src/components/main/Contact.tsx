@@ -60,7 +60,6 @@ export default function Contact() {
     },
   };
 
-  // Stagger Container Configurations for Contact Detail Cards
   const cardsContainerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
