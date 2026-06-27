@@ -265,7 +265,6 @@ export default function About() {
           </motion.div>
         </motion.div>
 
-        {/* Right Column - Illustration */}
         <motion.div
           variants={illustrationVariants}
           initial="hidden"
