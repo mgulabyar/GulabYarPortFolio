@@ -112,7 +112,7 @@ export default function Expertise() {
                 Full Stack Web Dev
               </span>
             </div>
-
+{/* full stack web dev */}
             <div className="pt-4 transition-all duration-300 flex items-center gap-3 group cursor-pointer">
               <Cpu className="h-5 w-5 text-brand-orange group-hover:scale-110 transition-transform duration-300 shrink-0" />
               <span className="text-xs font-bold uppercase tracking-wider text-white">
