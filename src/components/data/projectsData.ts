@@ -156,7 +156,18 @@ import slideDesigner3 from "../../assets/slideDesigner1 (3).png";
 import slideDesigner4 from "../../assets/slideDesigner1 (4).png";
 import slideDesigner5 from "../../assets/slideDesigner1 (5).png";
 import slideDesigner6 from "../../assets/slideDesigner1 (6).png";
-
+import meetingMinutes1 from "../../assets/meetingMinutes1 (1).png";
+import meetingMinutes2 from "../../assets/meetingMinutes1 (2).png";
+import meetingMinutes3 from "../../assets/meetingMinutes1 (3).png";
+import translatorPro1 from "../../assets/translatorPro1 (1).png";
+import translatorPro2 from "../../assets/translatorPro1 (2).png";
+import translatorPro3 from "../../assets/translatorPro1 (3).png";
+import wpPublisher1 from "../../assets/wpPublisher1 (1).png";
+import wpPublisher2 from "../../assets/wpPublisher1 (2).png";
+import outreach1 from "../../assets/outreach1 (1).png";
+import outreach2 from "../../assets/outreach1 (2).png";
+import outreach3 from "../../assets/outreach1 (3).png";
+import outreach4 from "../../assets/outreach1 (4).png";
 export interface Project {
   _id: string;
   title: string;
@@ -1313,6 +1324,105 @@ export const projects: Project[] = [
   liveUrl: "#",
 },
 
+{
+  _id: "41",
+  title: "AI Meeting Minutes",
+  tagline: "Smart Meeting Summaries & Google Sheets Task Automation.",
+  category: "Google Add-ons",
+  subType: "Google Docs Add-ons",
+  images: [meetingMinutes1, meetingMinutes2, meetingMinutes3],
+  description:
+    "An enterprise-grade Google Docs add-on that transforms lengthy meeting transcripts into structured summaries and actionable project tasks using artificial intelligence. Built with Google Apps Script, React, and Material UI, the platform leverages OpenAI GPT-4o to automatically identify key discussion points, critical decisions, action items, task owners, and deadlines from meeting notes. A built-in cross-application workflow synchronizes approved tasks directly to a centralized Google Sheets project tracker, while an interactive checklist interface allows users to review, edit, and validate AI-generated tasks before synchronization. The solution streamlines post-meeting documentation, improves team accountability, and eliminates manual task management workflows.",
+  technologies: [
+    "Google Apps Script",
+    "Google Docs API",
+    "Google Sheets API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "Task Automation",
+    "Document Intelligence",
+    "Workflow Automation",
+    "Project Management",
+    "AI Summarization",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "42",
+  title: "AI Translator Pro",
+  tagline: "Context-Aware Document Translation & Formatting Preservation.",
+  category: "Google Add-ons",
+  subType: "Google Docs Add-ons",
+  images: [translatorPro1, translatorPro2, translatorPro3],
+  description:
+    "An enterprise-grade Google Docs add-on that delivers intelligent document translation while preserving formatting, brand terminology, and document structure. Built with Google Apps Script, React, and Material UI, the platform enables users to translate entire documents or selected content using AI-powered contextual language processing. A built-in glossary protection engine safeguards company names, product terminology, and industry-specific keywords from unintended translation, while the formatting preservation engine maintains headings, fonts, hyperlinks, lists, and styling throughout the localization process. The solution also supports generating fully translated copies as new Google Docs, providing a secure workflow for multilingual business documentation, technical manuals, and marketing content.",
+  technologies: [
+    "Google Apps Script",
+    "Google Docs API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "AI Translation",
+    "Document Localization",
+    "Glossary Management",
+    "Formatting Preservation",
+    "Workflow Automation",
+    "Google Workspace",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "43",
+  title: "WP Publisher Pro",
+  tagline: "One-Click Google Docs to WordPress Publishing Automation.",
+  category: "Google Add-ons",
+  subType: "Google Docs Add-ons",
+  images: [wpPublisher1, wpPublisher2],
+  description:
+    "A professional Google Docs add-on that automates the entire content publishing workflow from Google Docs to WordPress. Built with Google Apps Script, React, and the WordPress REST API, the platform converts document content into clean, SEO-friendly HTML while preserving headings, paragraphs, lists, and formatting. The system automatically uploads document images to the WordPress Media Library, assigns featured images, and publishes articles with configurable titles, categories, post statuses, and custom metadata. Designed with a modern WordPress-inspired interface, the solution provides real-time publishing feedback, secure authentication using Application Passwords, and enterprise-grade error handling, enabling content teams to publish professional articles without leaving Google Docs.",
+  technologies: [
+    "Google Apps Script",
+    "Google Docs API",
+    "React.js",
+    "Material UI",
+    "WordPress REST API",
+    "REST APIs",
+    "HTML Conversion",
+    "Media Upload Automation",
+    "SEO Content Publishing",
+    "Workflow Automation",
+    "Google Workspace",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "44",
+  title: "AI Outreach Architect",
+  tagline: "Hyper-Personalized B2B Sales Outreach & Prospect Intelligence.",
+  category: "Google Add-ons",
+  subType: "Google Sheet Add-ons",
+  images: [outreach1, outreach2, outreach3, outreach4],
+  description:
+    "An enterprise-grade Google Sheets add-on that automates highly personalized B2B sales outreach using artificial intelligence and Gmail integration. Built with Google Apps Script, React, and OpenAI GPT-4o, the platform analyzes prospect profiles, biographies, and professional achievements to identify personalized conversation hooks before generating tailored email subject lines and outreach messages. A structured review workflow enables sales teams to validate AI-generated content before sending emails through Gmail, while built-in spam optimization ensures concise, role-specific messaging with improved inbox deliverability. Designed for high-volume outbound sales operations, the solution transforms spreadsheet-based lead management into an intelligent sales engagement platform.",
+  technologies: [
+    "Google Apps Script",
+    "Google Sheets API",
+    "Gmail API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "Sales Automation",
+    "Email Personalization",
+    "Prospect Intelligence",
+    "Workflow Automation",
+    "Prompt Engineering",
+  ],
+  liveUrl: "#",
+},
 
 ];
 
