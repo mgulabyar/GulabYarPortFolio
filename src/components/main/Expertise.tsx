@@ -23,7 +23,6 @@ import aspnetIcon from "../../assets/.net.png";
 import Footer from "../Footer/Footer";
 
 export default function Expertise() {
-  // Premium Custom Cubic Beziers (Luxury Deceleration)
   const easeOutExpo = [0.16, 1, 0.3, 1] as const;
 
   // Stagger Container Variants
