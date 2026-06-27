@@ -134,7 +134,6 @@ export default function Expertise() {
             </div>
           </motion.div>
         </div>
-{/*  */}
         <motion.div
           variants={slowSlideRight}
           className="lg:col-span-5 flex justify-center items-center relative"
