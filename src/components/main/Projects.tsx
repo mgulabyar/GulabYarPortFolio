@@ -45,7 +45,6 @@ export default function Projects() {
 
   const easeOutExpo = [0.16, 1, 0.3, 1] as const;
 
-  // Header Text Animation Configurations
   const headerStaggerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
