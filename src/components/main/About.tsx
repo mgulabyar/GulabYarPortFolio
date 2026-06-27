@@ -213,8 +213,7 @@ export default function About() {
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center px-6 md:px-12">
         
-        {/* Left Column - Cascade Text */}
-        <motion.div
+                <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
