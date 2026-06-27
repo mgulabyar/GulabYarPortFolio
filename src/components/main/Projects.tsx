@@ -231,7 +231,6 @@ export default function Projects() {
               transition={{ duration: 0.6, ease: easeOutExpo }}
               className="bg-brand-dark border border-white/10 rounded-3xl w-full max-w-7xl max-h-[90vh] overflow-hidden relative shadow-2xl flex flex-col"
             >
-              {/* Modal Header */}
               <div className="flex justify-between items-center p-6 border-b border-white/5">
                 <h3 className="text-3xl md:text-4xl font-black text-white uppercase tracking-tight">
                   {activeProject.title}
