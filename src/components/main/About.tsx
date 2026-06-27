@@ -283,7 +283,6 @@ export default function About() {
 
       <div className="w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent my-16"></div>
 
-      {/* SECTION 4: Database & DevOps Cloud */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center px-6 md:px-12">
         
         {/* Left Column - Cloud Illustration */}
