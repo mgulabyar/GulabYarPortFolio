@@ -55,7 +55,6 @@ export default function Expertise() {
     },
   };
 
-  // Smooth upward float for headings & sub-modules
   const slideInUp: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
