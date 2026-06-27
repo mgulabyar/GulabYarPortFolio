@@ -65,14 +65,13 @@ export default function Projects() {
     },
   };
 
-  // Filter Buttons Ripple Wave Configurations
   const filterContainerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
         staggerChildren: 0.04,
-        delayChildren: 0.25, // Starts just as header description settles
+        delayChildren: 0.25, 
       },
     },
   };
