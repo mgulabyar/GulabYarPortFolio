@@ -155,7 +155,6 @@ export default function About() {
           />
         </motion.div>
 
-        {/* Right Column - Text details cascaded dynamically */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
