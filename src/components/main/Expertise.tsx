@@ -787,7 +787,6 @@ export default function Expertise() {
           </motion.div>
         </div>
       </motion.div>
-{/* www */}
       <Footer />
     </section>
   );
