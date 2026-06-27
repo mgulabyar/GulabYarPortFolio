@@ -195,7 +195,6 @@ export default function Contact() {
               </span>
             </motion.div>
 
-            {/* Card 3: Response SLA */}
             <motion.div
               variants={cardItemVariants}
               className="p-6 rounded-2xl bg-slate-900/40 border border-white/5 hover:border-brand-orange/30 hover:shadow-glow-soft transition-[border-color,box-shadow,background-color] duration-500 ease-out flex flex-col items-center gap-3 text-center group cursor-pointer"
