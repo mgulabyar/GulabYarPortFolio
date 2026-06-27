@@ -66,6 +66,7 @@ export default function Expertise() {
     },
   };
 
+  // asdfand
   return (
     <section
       id="expertise"
