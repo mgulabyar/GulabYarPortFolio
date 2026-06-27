@@ -30,7 +30,6 @@ export default function About() {
     },
   };
 
-  // Fluid entrance from Right
   const slideInRight: Variants = {
     hidden: { opacity: 0, x: 30 },
     visible: {
