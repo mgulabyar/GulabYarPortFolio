@@ -300,7 +300,6 @@ export default function About() {
           />
         </motion.div>
 
-        {/* Right Column - Cascade Text */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
