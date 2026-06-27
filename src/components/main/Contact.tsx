@@ -88,7 +88,6 @@ export default function Contact() {
         viewport={{ once: true, amount: 0.2 }}
         className="w-full flex flex-col gap-12"
       >
-        {/* Intro Grid section (Timed Stagger) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center px-6 md:px-12">
           <div className="lg:col-span-7 flex flex-col gap-5">
             <motion.h2 
