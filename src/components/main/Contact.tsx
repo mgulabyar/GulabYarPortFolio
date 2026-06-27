@@ -125,7 +125,6 @@ export default function Contact() {
 
         <div className="w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent"></div>
 
-        {/* Channels Information Header */}
         <div className="w-full flex flex-col items-center gap-2 px-6 md:px-12">
           <motion.h3 
             variants={slowSlideUp}
