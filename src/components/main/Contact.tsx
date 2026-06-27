@@ -140,7 +140,6 @@ export default function Contact() {
             Connect through my verified channels for direct enterprise consultations, project estimations, or workspace automation support.
           </motion.p>
 
-          {/* Staggered cards grid for reliable channels (Smooth rise) */}
           <motion.div
             variants={cardsContainerVariants}
             initial="hidden"
