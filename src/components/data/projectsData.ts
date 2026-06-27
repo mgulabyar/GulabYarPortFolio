@@ -168,6 +168,9 @@ import outreach1 from "../../assets/outreach1 (1).png";
 import outreach2 from "../../assets/outreach1 (2).png";
 import outreach3 from "../../assets/outreach1 (3).png";
 import outreach4 from "../../assets/outreach1 (4).png";
+import executiveBrief1 from "../../assets/executiveBrief1 (1).png";
+import executiveBrief2 from "../../assets/executiveBrief1 (2).png";
+import executiveBrief3 from "../../assets/executiveBrief1 (3).png";
 export interface Project {
   _id: string;
   title: string;
@@ -1423,7 +1426,29 @@ export const projects: Project[] = [
   ],
   liveUrl: "#",
 },
-
+{
+  _id: "45",
+  title: "Executive Brief AI",
+  tagline: "AI-Powered Gmail Executive Briefing & Morning Intelligence Assistant.",
+  category: "Google Add-ons",
+  subType: "Gmail Add-ons",
+  images: [executiveBrief1, executiveBrief2, executiveBrief3],
+  description:
+    "An enterprise-grade Gmail Add-on that transforms unread emails into executive-level morning briefings using artificial intelligence. Built with Google Apps Script, React, Material UI, and OpenAI GPT-4o, the solution automatically scans recent unread email threads, extracts key business context, and generates concise executive summaries without leaving Gmail. The platform intelligently categorizes incoming communications into strategic summaries, actionable tasks, meeting requests, and critical business intelligence while eliminating duplicate conversations and unnecessary noise. Designed for executives, founders, and business leaders, the add-on enables rapid inbox processing through a modern dashboard optimized for high-speed decision making.",
+  technologies: [
+    "Google Apps Script",
+    "React.js",
+    "Material UI",
+    "Gmail API",
+    "OpenAI GPT-4o",
+    "Prompt Engineering",
+    "Email Intelligence",
+    "Executive Summarization",
+    "Task Extraction",
+    "Automation",
+  ],
+  liveUrl: "#",
+},
 
 ];
 
