@@ -168,6 +168,10 @@ import outreach1 from "../../assets/outreach1 (1).png";
 import outreach2 from "../../assets/outreach1 (2).png";
 import outreach3 from "../../assets/outreach1 (3).png";
 import outreach4 from "../../assets/outreach1 (4).png";
+import talentAnalytics1 from "../../assets/talentAnalytics1 (1).png";
+import talentAnalytics2 from "../../assets/talentAnalytics1 (2).png";
+import talentAnalytics3 from "../../assets/talentAnalytics1 (3).png";
+import talentAnalytics4 from "../../assets/talentAnalytics1 (4).png";
 export interface Project {
   _id: string;
   title: string;
@@ -1420,6 +1424,31 @@ export const projects: Project[] = [
     "Prospect Intelligence",
     "Workflow Automation",
     "Prompt Engineering",
+  ],
+  liveUrl: "#",
+},
+
+{
+  _id: "45",
+  title: "AI Talent Analytics",
+  tagline: "Employee Performance Intelligence & Automated HR Reporting.",
+  category: "Google Add-ons",
+  subType: "Google Sheet Add-ons",
+  images: [talentAnalytics1, talentAnalytics2, talentAnalytics3, talentAnalytics4],
+  description:
+    "An enterprise-grade Google Sheets add-on that automates employee performance analysis, executive reporting, and HR communication workflows using artificial intelligence. Built with Google Apps Script, React, and Material UI, the platform leverages OpenAI GPT-4o to evaluate employee goals, feedback, and performance metrics, generating objective performance scores and AI-powered growth recommendations. The solution automatically creates professionally formatted Google Docs performance reports and prepares personalized Gmail drafts containing secure report links for employees and managers. Designed for enterprise HR teams, the platform streamlines performance review cycles, eliminates manual reporting, and delivers consistent, data-driven talent assessments through an intelligent end-to-end workflow.",
+  technologies: [
+    "Google Apps Script",
+    "Google Sheets API",
+    "Google Docs API",
+    "Gmail API",
+    "React.js",
+    "Material UI",
+    "OpenAI GPT-4o",
+    "HR Analytics",
+    "Performance Management",
+    "Document Automation",
+    "Workflow Automation",
   ],
   liveUrl: "#",
 },
