@@ -221,7 +221,6 @@ export default function Projects() {
         </motion.div>
       </div>
 
-      {/* Modern High-End Modal View */}
       <AnimatePresence>
         {activeProject && (
           <div className="fixed inset-0 bg-brand-dark/95 backdrop-blur-xl z-200 flex items-center justify-center p-4 md:p-10">
