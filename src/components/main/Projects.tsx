@@ -43,7 +43,6 @@ export default function Projects() {
       prev === 0 ? activeProject.images.length - 1 : prev - 1,
     );
 
-  // Premium Cinematic Custom Cubic Beziers
   const easeOutExpo = [0.16, 1, 0.3, 1] as const;
 
   // Header Text Animation Configurations
