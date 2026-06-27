@@ -116,7 +116,6 @@ export default function About() {
           </motion.div>
         </motion.div>
 
-        {/* Right Column - Smooth Illustration entrance */}
         <motion.div
           variants={illustrationVariants}
           initial="hidden"
