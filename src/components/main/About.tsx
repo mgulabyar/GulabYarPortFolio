@@ -51,7 +51,6 @@ export default function About() {
   return (
     <section id="about" className="py-20 select-none overflow-hidden">
       
-      {/* SECTION 1: Main Introduction (Alternating grid triggers on Scroll) */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center px-6 md:px-12">
         
         {/* Left Column - Cascade Text */}
