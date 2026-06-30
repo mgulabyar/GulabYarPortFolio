@@ -12,7 +12,7 @@ import {
   Activity,
   Sparkles,
 } from "lucide-react";
-import profileImg from "../../assets/shabana.jpeg";
+import profileImg from "../../assets/profile.png";
 import Footer from "../Footer/Footer";
 
 export default function Hero() {
@@ -31,9 +31,9 @@ export default function Hero() {
   }, []);
 
   const defaultProfile = {
-    name: "Shabana Ishaq",
+    name: "Muhammad Gulab Yar",
     title: "Full-Stack Web Developer & Automation Expert",
-    bio: "I am a professional Full-Stack Developer with 2 years of solid industry experience specializing in the MERN stack, Python, ASP.NET Core, and Angular. My core expertise lies in designing highly scalable custom web architectures, complex MS Office Add-ins built with Office.js, Google Workspace Add-ons, and dynamic VBA/Macros. I specialize in bridging the gap between secure cloud databases and automated workflows, integrating smart AI APIs, and delivering fast, automated business ecosystems.",
+    bio: "I am a professional Full-Stack Developer with 4 years of solid industry experience specializing in the MERN stack, Python, ASP.NET Core, and Angular. My core expertise lies in designing highly scalable custom web architectures, complex MS Office Add-ins built with Office.js, Google Workspace Add-ons, and dynamic VBA/Macros. I specialize in bridging the gap between secure cloud databases and automated workflows, integrating smart AI APIs, and delivering fast, automated business ecosystems.",
     email: "mgulabyaarmgulabyaar@gmail.com",
     resumeUrl: "https://example.com/assets/gulab-yar-resume.pdf",
     contactUrl: "/contact",
